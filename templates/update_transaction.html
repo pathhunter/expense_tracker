@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Update Transaction - Expense Tracker{% endblock %}
+
+{% block content %}
+<section>
+    <h2>Update Transaction</h2>
+    <form action="{{ url_for('update_transaction', id=transaction.id) }}" method="post">
+        <label for="description">Description:</label>
+        <input type="text" id="description" name="description" value="{{ transaction.description }}" required><br><br>
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" name="amount" value="{{ transaction.amount }}" step="0.01" required><br><br>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" value="{{ transaction.date.strftime('%Y-%m-%d') }}" required><br><br>
+        <button type="submit">Update Transaction</button>
+    </form>
+</section>
+{% endblock %}
