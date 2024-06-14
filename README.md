@@ -1,16 +1,16 @@
 The project is hosted live here  -->  (https://expense-tracker-d6pl.onrender.com/transactions) 
 
-Expense Tracker: 
+Expense Tracker Overview:
 
-Overview
 Expense Tracker is a web application built with Flask and SQLAlchemy, designed to help users 
 manage their expenses efficiently. It allows users to add, update, and view transactions in 
 a user-friendly interface. Track your spending effortlessly with Expense Tracker!
 
-Technologies Used:   
-Python
-Flask
-SQLAlchemy
+Technologies Used: 
+
+Python, 
+Flask, 
+SQLAlchemy, 
 HTML/CSS
 
 ![image](https://github.com/pathhunter/expense_tracker/assets/99176167/8586f7fa-e77f-4ff7-923d-c08ac0009b51)
